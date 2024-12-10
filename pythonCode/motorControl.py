@@ -20,4 +20,7 @@ class MotorControl():
           gpio.setup(self.pin2, gpio.out)
           self.state = State.DWELL
 
+     def forward(self):
+          
+
 
